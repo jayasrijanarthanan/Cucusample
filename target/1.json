@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login Credentials",
+        "description": "",
+        "id": "facebook;login-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63833867900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "BrowserLaunch",
+            "match": {
+              "location": "Definition.browserlaunch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7928712900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the URL \"https://admin-demo.nopcommerce.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Definition.open_the_URL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1817976701,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username \"admin@yourstore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Definition.enter_Username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 470925499,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Password \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Definition.enter_Password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12813876400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click",
+            "match": {
+              "location": "Definition.click()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook",
+    "description": "",
+    "id": "facebook",
+    "keyword": "Feature",
+    "uri": "C:/Users/KARTHIK OOPRAPPAN/eclipse-workspace/CucumberTest/Features/Login.feature",
+    "tags": []
+  }
+]
